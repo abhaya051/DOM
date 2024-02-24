@@ -43,3 +43,50 @@
 // let tdt = document.getElementById("ok");
 // console.log((tdt.innerText = "Hello World"));
 // console.log((tdt.innerHTML = <h2>Inner H2 Tag</h2>));
+
+// Attribute (Use To Know About Attribute)
+// let box = document.querySelector("#Box");
+// console.log(box);
+
+// Get Attribute
+// let atr = box.getAttribute("id");
+// console.log(atr);
+// ------------------------------
+// let atr = box.getAttribute("class");
+// console.log(atr);
+
+// Set Attribute (Use To Set Attribute)
+// let box = document.querySelector("#Box");
+// box.setAttribute("id", "NewId");
+// // console.log(box.setAttribute("class", "newCass"));
+
+// Style Attribute
+// let box = document.querySelector("#Box");
+// console.log(box);
+
+// Insert Elements
+// In This Scenrio We Create It
+// let btn = document.createElement("button");
+// btn.innerText = "Click Me";
+// console.log(btn);
+
+// // Append And Prepend
+// // let div = document.querySelector("#Box");
+// // console.log(div.prepend(btn));
+
+// // After And Before
+// let div = document.querySelector("p");
+// console.log(div.after(btn));
+
+// insert heading ("Tasking ")
+// let heading = document.createElement("h1");
+// heading.innerText = "Hello Am A New";
+// console.log(heading);
+
+// let s = document.querySelector("#Box");
+// console.log(s.before(heading));
+
+// Delete Elements
+let para = document.querySelector("#p");
+console.log(para);
+para.remove();
